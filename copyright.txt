@@ -1,0 +1,2 @@
+The Tinypairing library is open source, under the GNU LESSER GENERAL PUBLIC LICENSE.
+For more details, refer to COPYINT.LIB.

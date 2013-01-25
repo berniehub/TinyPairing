@@ -1,0 +1,12 @@
+#!/bin/python
+# -*- coding: utf-8 -*-
+from TOSSIM import *
+t = Tossim([])
+m = t.getNode(32)
+m.bootAtTime(100)
+import sys
+a = t.addChannel("Output", sys.stdout);
+print a
+b = t.runNextEvent()
+print b
+exit
